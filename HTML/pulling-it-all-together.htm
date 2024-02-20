@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+</head>
+
+<body>
+
+    <!-- <header>: This contains the website's title and the main navigation menu. -->
+    <header>
+        <h1>John's Blog</h1>
+        <!-- <nav>: It provides navigation links to different sections of the site, improving the site's usability and accessibility. -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <main>: This encloses the central content of the web page, making it the focal point of the document. -->
+    <main>
+        <!-- <article>: Each blog post and comment is wrapped in an <article> tag, indicating they are self-contained compositions. -->
+        <article>
+            <header>
+                <h2>The Importance of Semantic HTML</h2>
+                <p>Posted on <time datetime="2024-02-20">February 20, 2024</time> by John</p>
+            </header>
+            <!-- <section>: Used to group related content within the article and the comments section, each <section> has a heading to introduce its content. -->
+            <section>
+                <h3>What is Semantic HTML?</h3>
+                <p>Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just
+                    presentation. It uses HTML tags to convey the role of the content on web pages...</p>
+            </section>
+            <section>
+                <h3>Benefits of Semantic HTML</h3>
+                <p>Using semantic tags provides many benefits, not only for search engines but also for developers and
+                    users. It makes web pages more accessible, improves SEO, and facilitates clearer code...</p>
+            </section>
+            <footer>
+                <p>Tags: <a href="#HTML">HTML</a>, <a href="#WebDevelopment">Web Development</a></p>
+            </footer>
+        </article>
+
+        <section>
+            <h2>Comments</h2>
+            <article>
+                <header>
+                    <h3>Alice</h3>
+                    <p>Posted on <time datetime="2024-02-21">February 21, 2024</time></p>
+                </header>
+                <p>This is really helpful. Thanks for sharing!</p>
+            </article>
+            <article>
+                <header>
+                    <h3>Bob</h3>
+                    <p>Posted on <time datetime="2024-02-22">February 22, 2024</time></p>
+                </header>
+                <p>Great article. Semantic HTML is the way to go for accessible web design.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- <footer>: Contains copyright and contact information, offering a consistent closing statement for the web page. -->
+    <footer>
+        <p>Contact me at <a href="mailto:john@example.com">john@example.com</a></p>
+        <p>© 2024 John's Blog</p>
+    </footer>
+
+</body>
+
+</html>

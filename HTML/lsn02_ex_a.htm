@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--
+  Name: Instructor
+  Class Section: CTI.110.0001
+  -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale="1.0"/>
+  <title>Example A</title>
+</head>
+<body>
+<!--The <div> HTML element is the generic container for flow content. It has no effect on the
+ content or layout until styled in some way using CSS. **caution: should ONLY be used when there is
+ not a better fit/semantic tag-->
+<div>
+<header>
+  <figure>
+    <img src'"filename of Image.jpg" alt="Description of Image" width="500" height="600">
+  </figure>
+  <!--You can create a hyperlink within a web page. First you use the id attribute to create
+    anchor point you want to jump using the <a> tag-->
+  <h1 id="top">Transportation</h1>
+</header>
+  <!--Semantic tag <nav>. The <nav> tag defines a set of navigation links.-->
+<nav>
+  <!--The <ul> (unordered list) and <ol> (ordered list) tags can be used to create lists. 
+  Here is is used as Navigation-->
+  <ul>
+     <!--The <li> is used in both <ul> and <ol>. <li> is the list item. It can be used for Navigation. 
+     Below we create link to another web site using the <a> tag.-->
+    <li><a href="https://www.w3schools.com/tags/tag_link.asp">Learn more about &#60;ul&#62; and
+    &#60;ol&#62; tags</a></li>
+    <!--The <a> tag is used to define hyperlinks-->
+    <li><a href="https://www.w3schools.com/tags/tag_a.asp">Learn more about the &#60;a&#62; tag</a></li>
+    <!--Hyper link to where the id="jump" tag is--> 
+    <li><a href="#jump">Trucks</a></li>
+  </ul>
+</nav>  
+<main>
+  <!--Semantic tag <figure>.  Specifies self-contained content. <img> element/tag defines the actual image/illustration -->
+  
+  <section>
+    <h2>Cars</h2>
+    <p>Content in paragraph form about cars.</p>
+    <!--Example of Ordered List-->
+    <ol>
+      <li>SUV</li>
+      <li>Sedan</li>
+      <li>Sport</li>
+    </ol>
+    <p>Second paragraph about cars.</p>
+  </section>
+  <!--Use the id attribute to create anchor point for jumping within web page-->
+  <section id="jump">
+    <h2>Trucks</h2>
+    <p> Content in paragraph form about trucks</p>
+  </section>
+</main>
+<br>
+<hr>
+<footer>
+  <p><a href="#top">Back to Top</a></p>
+  <p>&copy; Copyright Some Year by Instructor</p>
+</footer>
+
+</div>
+</body>
+</html>

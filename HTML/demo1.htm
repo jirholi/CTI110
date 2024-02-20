@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Website with Images and Colors</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb {
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+
+        .breadcrumb a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Specific background colors for each section */
+        #home {
+            background-color: #e9ecef;
+        }
+
+        #about {
+            background-color: #f8f9fa;
+        }
+
+        #contact {
+            background-color: #dee2e6;
+        }
+
+        /* Simple CSS to differentiate sections and links */
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Our Website</h1>
+        <p>This is the homepage. Use the navigation bar to visit other pages.</p>
+        <!-- Image container with a sample image -->
+        <div class="image-container">
+            <!-- Example image (Replace 'example.jpg' with your actual image file) -->
+            <img src="both_student.png" width="300" height="300" alt="Sample Image">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="breadcrumb">
+            <a href="#home">Home</a> > <span>About Us</span>
+        </div>
+        <h1>About Us</h1>
+        <p>This page tells you more about our website and services.</p>
+    </section>
+
+    <section id="contact">
+        <div class="breadcrumb">
+            <a href="#home">Home</a> > <span>Contact</span>
+        </div>
+        <h1>Contact Us</h1>
+        <p>Here's how you can reach out to us.</p>
+    </section>
+
+</body>
+
+</html>
